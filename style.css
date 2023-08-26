@@ -1,0 +1,179 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+navbar{
+    margin-left: 5%;
+    
+    position: relative;
+}
+.temp{
+    background-image: url(./assets/Logo.png);
+    padding:5px;
+    border-radius: 7px;
+   
+}
+
+.nav{
+    display: inline-block;
+    vertical-align: 4px;
+    color:#F94A3D;
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+ul{
+    margin-left:18%;
+    word-spacing: 15px;
+}
+li{
+    font-size:20px;
+}
+navbar>ul,li{
+    display:inline-block;
+}
+
+.search{
+    padding:7px;
+    border-radius: 5px;
+    border:1px solid black;   
+}
+
+
+.notification {
+
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  
+  .notification:hover {
+    background: transparent;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    padding:2px 6px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    font-size: 10px;
+  }
+
+.signin{
+    font-size:20px;
+    color:white;
+    padding:5px 20px;
+    font-weight: 100;
+    background-color: #F94A3D;
+    border-radius: 5px;
+    text-shadow: none;
+    border: none;
+}
+
+.right{
+    position: absolute;
+    /* width:100%;    */
+    right:-50%;
+    margin-top:-50px;
+    word-spacing: 20px;
+}
+
+.grad{
+    height:800px;
+    z-index:-200;
+    width:100%;
+    background:url(./assets/Mask\ Group.png);
+    position: relative;
+}
+
+.top-left{
+    position: absolute;
+    top: 200px;
+    left: 6%;
+    font-size: 20px;
+    background-color: #FDECEC;
+    color: #F94A3D;
+    padding:5px;
+    border-radius: 50px;
+}
+
+.top-left>img{
+    position: relative;
+    right:-2px;
+    width:30px;
+    vertical-align: -13.5px;
+    background-color: white;
+    margin-left:4px;
+    padding:5px;
+    border-radius:50%;
+}
+
+.top-left-1{
+    position:absolute;
+    top: 250px;
+    left: 6%;
+    width:30%;
+    font-size:60px;
+    font-weight:600;
+}
+
+.top-left-2{
+    position:absolute;
+    top: 500px;
+    left: 6%;
+    width:30%;
+    font-size:20px;
+}
+
+.mid-right{
+    position:absolute;
+    top: 10%;
+    left: 40%;
+    width:20%;
+    
+}
+
+.box-button>button{
+    position:absolute;
+    top:620px;
+    left:6%;
+    padding:15px 25px;
+    background-color: #F94A3D;
+    border: none;
+    color: white;
+    border-radius:16px; 
+}
+.about{
+    position:relative;
+    left:6%;
+}
+.one-about{
+    position: absolute;
+    font-size:48px;
+    font-weight:600;
+    width:337px;
+
+
+}
+
+.one-about-below{
+    position: absolute;
+    top:180px;
+    width:250px;
+    color:grey;
+}
+
+.chicken{
+    position:absolute;
+    left:350px;
+}
+
+.chicken-about
